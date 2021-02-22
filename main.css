@@ -127,6 +127,9 @@ nav ul li a:hover {
   list-style: none;
   text-decoration: none;
 }
+.social a {
+  color: white;
+}
 @media only screen and (max-width: 900px) {
   #tog {
     display: block;
