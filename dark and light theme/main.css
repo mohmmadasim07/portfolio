@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: #20222f;
+  color: whitesmoke;
+  width: 100%;
+  padding: 40px 10px;
+}
+header {
+  margin: 40px 20px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#toggle {
+  width: 90px;
+  height: 30px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  outline: none;
+  background-color: #20222f;
+  color: white;
+}
+img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+.sectionOne {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10% 5%;
+}
+.oneitem {
+  border-top: 1px solid blue;
+  background-color: rgb(46 52 86);
+  padding: 50px 80px;
+  text-align: center;
+  margin: 10px;
+}
+
+.sectionTwo {
+  display: flex;
+  max-width: auto;
+  justify-content: space-around;
+  margin: 5% 5%;
+  flex-wrap: wrap;
+}
+
+.twoitem {
+  background-color: rgb(46 52 86);
+  padding: 35px;
+  width: 18%;
+  margin-bottom: 10px;
+}
+.twoitem img {
+  width: 30px;
+  height: 30px;
+}
+h4 {
+  font-weight: 400;
+}
+h1 {
+  margin: 15px 0;
+}
+h2 {
+  margin: 15px 0;
+}
+footer {
+  text-align: center;
+}
+/* making theme for dark mode */
+.container2 {
+  width: 100%;
+  height: auto;
+  font-family: tahoma;
+  background-color: #fdfdff;
+  color: #20222f;
+  width: 100%;
+  padding: 40px 10px;
+}
+.oneitemtwo {
+  border: 2px solid #20222f;
+  background-color: white;
+  padding: 50px 80px;
+  text-align: center;
+  margin: 10px;
+}
+.twoitemtwo {
+  background-color: white;
+  border: 1.5px solid #20222f;
+  color: #20222f;
+  padding: 35px;
+  width: 18%;
+  margin-bottom: 10px;
+}
+/* table view */
+@media (max-width: 900px) {
+  .oneitem {
+    width: 70%;
+  }
+  .twoitem {
+    width: 30%;
+  }
+}
+/* mobile view */
+@media (max-width: 600px) {
+  .oneitem {
+    width: 80%;
+  }
+  .twoitem {
+    width: 30%;
+  }
+}
